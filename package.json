@@ -1,0 +1,12 @@
+{
+  "name": "restful-booker-postman-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Postman/Newman collection for Restful Booker CRUD API checks",
+  "scripts": {
+    "test:api": "newman run restful-booker.postman_collection.json"
+  },
+  "devDependencies": {
+    "newman": "6.2.1"
+  }
+}
